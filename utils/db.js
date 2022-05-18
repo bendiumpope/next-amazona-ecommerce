@@ -4,6 +4,8 @@ const connection = {}
 
 async function connect() {
 
+  // console.log(process.env.MONGODB_URI);
+
   if(connection.isConnected){
     console.log('already connected');
     return;
